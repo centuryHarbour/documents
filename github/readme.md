@@ -45,3 +45,10 @@ $ git rm -h
     --ignore-unmatch      即使没有匹配，也以零状态退出
 git rm -r '文件夹路径' '文件夹路径'	可以删除多个文件夹
 git rm '文件路径' '文件路径'	可以删除多个文件
+
+###方法二
+如果github创建项目是全空的话，那只要：
+	1.git remote add origin git@github.com:yourName/yourRepo.git
+	2.git add .
+	3.git commit -m 'xxxx'
+	4.git push -u origin master
