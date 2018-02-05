@@ -40,11 +40,13 @@ pc端、web端
 
 **关于前端请求头及缓存设置：**
 
-1.可参考：[Meta http-equiv属性与HTTP头的Expires中（Cache-control）](httpMeta.md)
+可参考：
 
-2.js和css更新都可以通过更改文件名达到更新的目的；
+1.[前端必备HTTP技能之HTTP请求头响应头中常用字段详解](https://www.jianshu.com/p/6e86903d74f7)
 
-3.可参考[前端必备HTTP技能之HTTP请求头响应头中常用字段详解](https://www.jianshu.com/p/6e86903d74f7)
+2.[Meta http-equiv属性与HTTP头的Expires中（Cache-control）](httpMeta.md)
+
+	提示：js和css更新都可以通过更改文件名达到更新的目的；
 
 **关于缓存更新**
 
