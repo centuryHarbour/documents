@@ -46,7 +46,7 @@ pc端、web端
 
 2.[Meta http-equiv属性与HTTP头的Expires中（Cache-control）](httpMeta.md)
 
-	提示：js和css更新都可以通过更改文件名达到更新的目的；
+	Tip：js和css更新都可以通过更改文件名达到更新的目的；
 
 **关于缓存更新**
 
