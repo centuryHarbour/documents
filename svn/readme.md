@@ -4,8 +4,8 @@
 
 1.
 
-<img src="img/svn-change-addr-1.png" width="400" alt="步骤1" margin="0 auto"/>
+![](img/svn-change-addr-1.png)
 
 2.
 
-<img src="img/svn-change-addr-2.png" width="400" alt="步骤2" margin="0 auto"/>
+![](img/svn-change-addr-2.png)
