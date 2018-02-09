@@ -4,8 +4,8 @@
 
 1.
 
-![](img/svn-change-addr-1.png)
+![](img/svn-change-addr-1.png =100x100)
 
 2.
 
-![](img/svn-change-addr-2.png)
+![](img/svn-change-addr-2.png =100x100)
