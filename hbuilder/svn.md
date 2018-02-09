@@ -18,3 +18,19 @@
 5.命名可修改也可默认的,然后执行下一步或是完成即可：
 ![修改项目名](/img/svn/5.png)
 ![下一步](/img/svn/5.png)
+
+
+## hbuilder修改svn的地址
+
+步骤：
+-
+
+1.![](/img/svn/svn-addr-change-1.jpg)
+
+2.![](/img/svn/svn-addr-change-2.png)
+
+3.![](/img/svn/svn-addr-change-3.png)
+
+4.![](/img/svn/svn-addr-change-4.jpg)
+
+5.![](/img/svn/svn-addr-change-5.jpg)
