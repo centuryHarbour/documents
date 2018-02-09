@@ -4,8 +4,8 @@
 
 1.
 
-<img src="img/svn-change-addr-1.png" width="100" height="100" alt="步骤1" align=center/>
+<img src="img/svn-change-addr-1.png" width="400" alt="步骤1" align="center"/>
 
 2.
 
-<img src="img/svn-change-addr-2.png" width="100" height="100" alt="步骤2" align=center/>
+<img src="img/svn-change-addr-2.png" width="400" alt="步骤2" align="center"/>
