@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		
+	</body>
+	<script>
+//		var bool=true;
+//		function aa() {
+//			console.log(bool)
+//		    if(bool) {
+//		        let test = 'hello man'
+//		    } else {
+//		        console.log('结果0：'+test)
+//		    }
+//		    console.log('结果1：'+test)
+//		}
+//		aa()
+//		console.log('结果2：'+test)
+
+//		const name = 'roko';
+//		name = 'joy';
+
+		// 面试题
+//		var funcs = []
+//	    for (var i = 0; i < 10; i++) {
+//	        funcs.push(function() { console.log(i) })
+//	    }
+//	    funcs.forEach(function(func) {
+//	        func()
+//	    })
+
+		// 解决方法1
+//		var funcs = []
+//		for (let i = 0; i < 10; i++) {
+//		    funcs.push(function() { console.log(i) })
+//		}
+//		funcs.forEach(function(func) {
+//		    func()
+//		})
+
+		// 解决方法2
+//		var funcs = []
+//		for (var i = 0; i < 10; i++) {
+//			(function(i){	    		
+//				funcs.push(function() { console.log(i) })
+//			})(i)
+//		}
+//		funcs.forEach(function(func) {
+//		    func()
+//		})
+
+		// es5
+//		var msg = "<div>\
+//	        <span>hello world</span>\
+//	    </div>";
+//	    console.log(msg)
+	    
+	    // es6
+//	    const template = `<div>
+//	        <span>hello world</span>
+//	    </div>`
+//	    console.log(template)
+
+		// includes：判断是否包含然后返回布尔值
+//		let str = 'abcdefg';
+//		console.log(str.includes('bc')) // true
+		
+		// repeat：获取字符串重复n次
+//		let str2 = 'ha'
+//		console.log(str2.repeat(3)) // hahaha
+
+//		function action(num) {
+//	        num = num || 200
+//	        //当传入num时，num为传入的值
+//	        //当没传入参数时，num即有了默认值200
+//	        return num
+//	    }
+//		console.log(action())
+//		console.log(action(10))
+//		console.log(action(0))
+		
+//		function action(num = 100) {
+//			console.log(num)
+//		}
+//		action(5) // 5
+//		action(0) // 0
+//		action() // 100
+
+//		[1,2,3,5].map(x => console.log(x + 1));
+
+//		var arr = [1,2,3,5].map(function(x){
+//			return x + 1
+//		})
+//		console.log(Array.isArray(arr))
+//		console.log(arr[1])
+
+//		var people = name => `hi ${name}`
+		
+//		var people = (name, age) => {
+//			const fullName = `H-${name} is ${age}`
+//			return fullName
+//		}
+//		console.log(people('roko', 20))
+
+		// es5
+//		function people1(name, age) {
+//			return {
+//				name: name,
+//				age: age
+//			}
+//		}
+//		console.log(people1('roko',20))
+		// es6
+//		let people2 = (name, age) => {
+//			return {
+//				name,
+//				age
+//			}
+//		}
+//		console.log(people2('joy',21))
+
+		// es5
+//		var people1 = {
+//			name: 'roko',
+//			getName: function() {
+//				console.log(this.name)
+//			}
+//		}
+//		people1.getName()
+		
+		// es6
+//		const people2 = {
+//			name: 'joy',
+//			getName() {
+//				console.log(this.name)
+//			}
+//		}
+//		people2.getName()
+
+		// es5
+//		var people1 = {
+//			name: 'roko',
+//			age: 20
+//		}
+//		var name = people1.name
+//		var age = people1.age
+//		console.log(name + '---' + age)
+
+		// es6
+		// 对象
+//		const people1 = {
+//			name: 'joy',
+//			age: 21
+//		}
+//		const {name, age} = people1
+//		console.log(`${name}---${age}`)
+		
+		const people3 = {
+			name: 'kk',
+			age: 44,
+			getName() {
+				console.log(this.name)
+				console.log(this.age)
+				return `${this.name}---${this.age}`
+			}
+		}
+		const {name, age, getName,a} = people3
+		console.log(`${name}---${age}---${getName}`)
+		
+		// 数组
+//		const color = ['red', 'blue']
+//		const [color1, color2] = color
+//		console.log(`${color1}---${color2}`)
+	</script>
+</html>
