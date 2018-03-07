@@ -71,7 +71,7 @@
 
 ![查看仓库](img/github.io/11.png)
 
-浏览器地址栏输入网址：https://centuryHarbour.github.io，如下图所示：
+浏览器地址栏输入网址：\https://centuryHarbour.github.io，如下图所示\：
 
 ![浏览网站](img/github.io/10.png)
 
@@ -111,7 +111,7 @@ clone下来模版后，我们就得关联自己刚才创建的网站仓库，比
 	git remote add mine git@github.com:centuryHarbour/centuryHarbour.github.io.git
 	git remote -v
 	
-*Note：*git remote -v 是查看所关联的仓库,git remote add mine git@github.com:centuryHarbour/centuryHarbour.github.io.git是增加一个mine的git主干名关联的是git@github.com:centuryHarbour/centuryHarbour.github.io.git仓库
+*Note：*git remote -v 是查看所关联的仓库,git remote add mine \git@github.com:centuryHarbour/centuryHarbour.github.io.git\是增加一个mine的git主干名关联的是\git@github.com:centuryHarbour/centuryHarbour.github.io.git\仓库
 
 然后用Notepad++编辑器或是其他编辑器也可以（Notepad++网上搜索下载直接全部下一步安装就好）打开xudailong.github.io的文件夹里的_config.yml文件修改，具体可以参照[xudailong.github.io文档说明](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/README-zh-cn.md)去修改你想修改的东西,这里我只是随便选的_config.yml文件修改演示看看效果（修改的文件记得按ctrl + s保存一下）。
 
@@ -141,6 +141,6 @@ clone下来模版后，我们就得关联自己刚才创建的网站仓库，比
 
 ![浏览网站](img/github.io/20.png)
 
-浏览器地址栏输入网址：https://centuryHarbour.github.io，如下图所示：
+浏览器地址栏输入网址：\https://centuryHarbour.github.io，如下图所示\：
 
 ![浏览网站](img/github.io/21.png)
