@@ -144,20 +144,3 @@ let arr = [1,2,3,3];
 let resultarr = [...new Set(arr)]; 
 console.log(resultarr); //[1,2,3]
 ```
-
-**方法七：**
-
-Array.prototype.push.apply()，该方法优点是不会产生一个新的数组。
-
-```js
-var a = [1, 2, 3];
-var b = [4, 5, 6];
-Array.prototype.push.apply(a, b);//a=[1,2,3,4,5,6]
-//等效于:a.push.apply(a, b);
-//也等效于[].push.apply(a, b); 
-function concatArray(arr1,arr2){
-  Array.prototype.push.apply(arr1, arr2);
-  arr1 = unique1(arr1);
-  return arr1;
-}
-```
