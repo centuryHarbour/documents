@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var arr=[3,44,38,5,47,15,36,26,27,2,46,4,19,50,48,99,0,-1,-5,undefined,NaN,null];
+			
+			function bubbleSort(arr, newArr = []) {
+				console.time('冒泡排序耗时');
+				for(let i = 1; i < arr.length; i++){
+					for(let j=0; j<=arr.length-i; j++){
+			      		// ">" 从小到大排序
+			      		// "<" 从大到小排序
+			      		if(arr[j] > arr[j+1]){
+					        [newArr[j], newArr[j+1]] = [newArr[j+1], newArr[j]]
+					    }
+			      	}
+				}
+				console.timeEnd('冒泡排序耗时');
+				return newArr = arr;
+			}
+			bubbleSort(arr)
+			console.log(arr)
+			function bubbleSort2(arr) {
+			    console.time('改进后冒泡排序耗时');
+			    var i = arr.length-1;  //初始时,最后位置保持不变
+			    while ( i> 0) {
+			        var pos= 0; //每趟开始时,无记录交换
+			        for (var j= 0; j< i; j++)
+			            if (arr[j]> arr[j+1]) {
+			                pos= j; //记录交换的位置
+			                var tmp = arr[j]; arr[j]=arr[j+1];arr[j+1]=tmp;
+			            }
+			        i= pos; //为下一趟排序作准备
+			     }
+			     console.timeEnd('改进后冒泡排序耗时');
+			     return arr;
+			}
+			bubbleSort2(arr)
+		</script>
+	</body>
+</html>

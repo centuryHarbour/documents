@@ -307,20 +307,17 @@ const people1 = {
 }
 const {name, age} = people1
 console.log(`${name}---${age}`)
-const people3 = {
-	name: 'kk',
-	age: 44,
-	getName() {
-		return `${this.name}---${this.age}`
-	}
-}
-const {name, age, getName} = people3
-console.log(`${name}---${age}---${getName()}`)
 
 // 数组
 const color = ['red', 'blue']
 const [color1, color2] = color
 console.log(`${color1}---${color2}`)
+
+// 交换值
+
+let a = 'word', b = 'hello'
+[a, b] = [b, a]
+console.log(`${a}---${b}`)
 
 ```
 
